@@ -88,7 +88,7 @@ streamlit run youtube_analyzer.py
 ### 💻 **Command Line Tool**
 
 ```bash
-python main.py
+python youtube_analyzer_terminal.py
 ```
 
 Enter the YouTube channel URL when prompted. Supports:
@@ -101,10 +101,10 @@ Enter the YouTube channel URL when prompted. Supports:
 
 ```
 📁 YouTube-Channel-Analyzer
-├── 🌐 youtube_analyzer.py      # Streamlit web app
-├── 💻 main.py                  # Command line tool
-├── 📄 video_titles_and_views.txt  # CLI output file
-├── 📊 exported_data.csv        # Web app export files
+├── 🌐 youtube_analyzer.py           # Streamlit web app
+├── 💻 youtube_analyzer_terminal.py  # Command line tool
+├── 📄 video_titles_and_views.txt    # CLI output file
+├── 📊 exported_data.csv             # Web app export files
 └── 📖 README.md
 ```
 
